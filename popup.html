@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adpocalypse</title>
+    <style>
+        body {
+            width: 250px;
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 5px 10px;
+        }
+
+        ul {
+            text-align: left;
+            max-height: 100px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Adpocalypse ☄️</h2>
+    <p id="status">Status: Active</p>
+    <p><strong>Blocked:</strong> <span id="blocked-count">0</span></p>
+
+
+    <h4>Learned Trackers:</h4>
+    <ul id="learned-list"></ul>
+
+    <button id="clear-btn">Clear Learned Trackers</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
